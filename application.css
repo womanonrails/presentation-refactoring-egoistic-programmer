@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body { font-family: 'Droid Serif'; }
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.tiny .remark-code, .tiny .remark-inline-code { font-size: 5pt; }
+.small .remark-code, .small .remark-inline-code { font-size: 10pt; }
+
+.inverse {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+
+.inverse h1, .inverse h2, .inverse h3 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+.full-screen {
+  padding: 0px;
+}
+
+.full-screen p {
+  margin-top: 0;
+}
+
+.spectial p {
+  margin-top: -20px;
+}
+
+a {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.large-image img {
+  width: 100%;
+}
+
+.small-image img {
+  width: 400px;
+}
+
+.thumb-image img {
+  width: 200px;
+}
+
+.position-absolute img {
+  position: absolute;
+  top: 0px;
+  right: 10%;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.left-column {
+  width: 60%;
+  height: 92%;
+  float: left;
+  padding-top: 15%;
+}
+
+.left-column-small-padding {
+  width: 60%;
+  height: 92%;
+  float: left;
+  padding-top: 3%;
+}
+
+.right-column {
+  width: 35%;
+  float: right;
+  padding-top: 20%;
+}
+
+.right-column-small-padding {
+  width: 35%;
+  float: right;
+  padding-top: 14.5%;
+}
+
+.small {
+  font-size: 10pt;
+}
+
+table.table {
+    border-collapse: collapse;
+}
+
+table.table, .table th, .table td {
+    border: 1px solid black;
+}
+
+.table td:nth-child(odd) {
+  background-color: #d5d9dc;
+}
+
+.table th, .table td {
+  padding: 5px;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
